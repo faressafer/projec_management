@@ -6,9 +6,9 @@ import { NotfoundComponent } from './pages/notfound/notfound.component';
 export const routes: Routes = [
 
 
-    { path: '', redirectTo: 'dashboard' , pathMatch: 'full'},
-    {path: 'dashboard', component: DashboardComponent},
-    {path: 'login', component: LoginComponent},
-    {path: '**', component: NotfoundComponent},
+    // { path: '', redirectTo: 'dashboard' , pathMatch: 'full'},
+    // {path: 'dashboard', component: DashboardComponent},
+    // {path: 'login', component: LoginComponent},
+    // {path: '**', component: NotfoundComponent},
 
 ];
